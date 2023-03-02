@@ -10,6 +10,6 @@ class Main
 
         echo "</br>";
 
-        echo "O id indicado foi $id";
+        printf("O meu id é %s", $id);
     }
 }

@@ -7,7 +7,7 @@ use App\Controllers\Main;
 
 class Router
 {
-    public static function dispatch()
+    public static function dispatch(): void
     {
         // main route values
         $httpVerb = $_SERVER['REQUEST_METHOD'];
