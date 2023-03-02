@@ -8,6 +8,8 @@ class Main
     {
         echo "Estou dentro do controller main";
 
+        echo "</br>";
+
         echo "O id indicado foi $id";
     }
 }
