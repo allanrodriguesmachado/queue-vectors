@@ -1,4 +1,4 @@
 <?php
 
 
-define("APP_NAME", 'Basic Name Gathering');
+define("APP_NAME", 'Tech Management');

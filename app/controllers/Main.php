@@ -2,12 +2,16 @@
 
 namespace App\Controllers;
 
-class Main
+class Main extends BaseController
 {
-    public function index(string $id = null)
+    public function index()
     {
-
-        echo "Estou dentro do controller main";
-
+        $data = [
+            'nome' => 'allan',
+            'apelido' => 'Rodrigues'
+        ];
+        $this->view('layouts/html_header');
+        $this->view('home', $data);
+        $this->view('layouts/html_footer');
     }
 }

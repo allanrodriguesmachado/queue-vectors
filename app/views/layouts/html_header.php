@@ -14,5 +14,6 @@
     <link rel="stylesheet" href="/assets/fontawesome/all.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="/assets/app.css">
+    <link rel="stylesheet" href="/assets/global.css">
 </head>
 <body>
