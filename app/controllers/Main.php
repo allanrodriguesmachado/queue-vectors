@@ -4,12 +4,10 @@ namespace App\Controllers;
 
 class Main
 {
-    public function index($id)
+    public function index(string $id = null)
     {
+
         echo "Estou dentro do controller main";
 
-        echo "</br>";
-
-        printf("O meu id é %s", $id);
     }
 }
