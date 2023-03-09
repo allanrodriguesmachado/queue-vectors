@@ -25,14 +25,17 @@ int main()
             cin >> item;
             fila1.inserir(item);
         }
-        else if (opcao == 2)
+
+        if (opcao == 2) 
         {
-            item = fila1.remover();
+           item = fila1.remover(); 
         }
-        else if (opcao == 3)
+
+        if (opcao == 3) 
         {
             fila1.imprimir();
         }
+
     } while (opcao != 0);
 
     return 0;
